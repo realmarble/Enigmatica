@@ -1,6 +1,6 @@
 # Enigmatica
 
-Enigmatica is a very simple, albeit intriguing extension. After picking a website of choice, open the extension by clicking on its icon, select the element to attach the message to, and click enscribe to submit the message.
+Enigmatica is a very simple extension. After picking a website of choice, open the extension by clicking on its icon, select the element to attach the message to, and click enscribe to submit the message.
 
 # Installing
 
