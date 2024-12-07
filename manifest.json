@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Enigmatica",
+  "description":"Build the Web library by leaving hidden messages for other archivists. Join the Hidden World.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "icons": { "16": "icon16.png",
+            "48": "icon48.png",
+          "128": "icon128.png" },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
